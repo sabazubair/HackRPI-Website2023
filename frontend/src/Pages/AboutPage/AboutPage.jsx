@@ -10,11 +10,18 @@ import Button from 'react-bootstrap/Button';
 
 const AboutPage = () => {
   return (
-    <div id="about"  className="AboutPage" style={{ textAlign: 'center', width: "80%", margin: 'auto'}}>
-      <h1 className="title" style={{ fontFamily: 'Mokoto', fontSize: 46, height: 35 }}>
+    <div
+      id="about"
+      className="AboutPage"
+      style={{ textAlign: 'center', width: '80%', margin: 'auto' }}
+    >
+      <h1
+        className="title"
+        style={{ fontFamily: 'Mokoto', fontSize: 46, height: 35 }}
+      >
         HackRPI X
       </h1>
-      <Tab.Container defaultActiveKey="one" style={{paddingBottom: 30}}>
+      <Tab.Container defaultActiveKey="one" style={{ paddingBottom: 30 }}>
         <Col>
           <Row>
             <Nav
@@ -44,13 +51,19 @@ const AboutPage = () => {
               experience necessary to attend. Hackers will also have the
               opportunity to network with our fantastic sponsors from the
               companies that make our event possible. This year's theme,{' '}
-              <span style={{ fontFamily: 'Poppins', fontWeight: "bold", color: '#910307' }}>
+              <span
+                style={{
+                  fontFamily: 'Poppins',
+                  fontWeight: 'bold',
+                  color: '#910307',
+                }}
+              >
                 Change the World
               </span>{' '}
-              is an ode to a decade inspring students and HackRPI!
+              is an ode to a decade inspiring students and HackRPI!
               <br></br>
               <br></br>Come join us this coming November 4-5, 2023 to hack,
-              learn, and meet other poeple!{' '}
+              learn, and meet other people!{' '}
             </Tab.Pane>
             <Tab.Pane eventKey="two">
               We are a motivated team of RPI students who share a passion for
@@ -97,7 +110,8 @@ const AboutPage = () => {
         <div>
           <Nav.Link href="https://organize.mlh.io/participants/events/9892-hackrpi">
             <Button
-              variant="outline" className='button'
+              variant="outline"
+              className="button"
               style={{ backgroundColor: '#910307', color: 'white' }}
             >
               Register Now!
